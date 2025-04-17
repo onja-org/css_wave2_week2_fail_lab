@@ -1,0 +1,63 @@
+body {
+  font-famly: Segoe, Tahoma, sans-serif;
+  margin: 5px;
+  padding: 10px;
+  background-color: linear-gradient(#fffde7, #ffeaa7);
+  color: #33333;
+}
+
+header {
+  background: #2d3436;
+  color: white;
+  paddng: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: yellow;
+}
+
+nav.navbar {
+  backgrond: #6c5ce7;
+}
+
+.nav-link {
+  color: blue;
+}
+
+main h2, h3, h5 {
+  color: #000;
+  font-wieght: 700;
+}
+
+section {
+  background: #ffffffe0;
+  paddding: 3rem;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 5px;
+}
+
+blockquote {
+  color: purple;
+  border-left: 4px solid purple;
+  padding-left: .5rem;
+  margin: 0.5rem;
+  background: #f0f4c3;
+}
+
+footer {
+  background: black;
+  color: lightgray;
+  text-align: centre;
+  padding: 2em;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    display: block;
+  }
+}
