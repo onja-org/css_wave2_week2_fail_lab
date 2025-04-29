@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfollio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styel.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <header class="py-2">
-    <h1>My Portfolio</h1>
-    <p class="lead">Welcome to my professional space on the web</p>
-  </header>
+  <div class="py-4 ">
+    <h1 class="display-4">My Portfolio</h1>
+    <p class="lead">Welcome to my professional space on the web!</p>
+  </div>
 
-  <nav class="navbar navbar-dark bg-dark">
-    <div>
-      <a class="navbar-brand">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="contain-">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse">
-        <ul class="navbar-nav">
-          <li><a class="nav-link" href="#">About</a></li>
-          <li><a class="nav-link" href="#">Projects</a></li>
-          <li><a class="nav-link" href="#">Skills</a></li>
-          <li><a class="nav-link" href="#">Blog</a></li>
-          <li><a class="nav-link" href="#">Contact</a></li>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <main class="container">
-    <section>
+  <main class="container py-5">
+    <main id="about" class="text-center mb-5">
       <h2>About Me</h2>
-      <p>I’m a passionate web developer building responsive and accessible websites.</p>
-      <p>I specialize in frontend development creating interactive and dynamic user experiences. I also enjoy backend dev.</p>
-    </section>
+      <p class="lead">I’m a passionate web developer building responsive and accessible websites.<p>
+      <p>I specialize in frontend development, creating interactive and dynamic user experiences. I also enjoy backend development and working with APIs.</p>
+    </main>
 
-    <section>
-      <h3>Education</h3>
+    <section id="education" class="mb-5">
+      <h3 class="text-center text-start">Education</h3>
       <ul>
-        <li>Bachelor in CS - University of Web</li>
-        <li>Bootcamp - Code Inst. 2022</li>
-        <li>Frontend Mentor - 2023</li>
+        <li style="margin-left: 200px">Bachelor of Science in Computer Science - University of Web (2021)<li>
+        <li>Advanced CSS and JavaScript Bootcamp - Code Institute (2022)<li>
+        <li>Frontend Mentor Pro Challenges - 2023<li>
       </ul>
     </section>
 
-    <section>
-      <h3>Experiences</h3>
+    <section id="experience" class="mb-5">
+      <h3 style="margin-left: 200px">Experience</h3>
       <div>
-        <h5>Frontend Dev - WebWorks</h5>
-        <p>2023 - Present</p>
+        <h5>Frontend Developer - WebWorks Inc.</h5>
+        <p>Jan 2023 - Present</p>
         <ul>
-          <li>Built UI with Bootstrap</li>
-          <li>Added interactivity</li>
+          <li>Designed responsive UI for e-commerce platforms using Bootstrap and custom CSS</li>
+          <li>Implemented interactive features with vanilla JavaScript</li>
+          <li>Optimized performance and accessibility across devices</li>
         </ul>
       </div>
     </section>
 
-    <section>
+    <section id="testimonials" class="mb-5">
       <h3>Testimonials</h3>
-      <blockquote>
-        <p>"A true professional with a keen eye for design."</p>
-        <footer>Jane Doe</footer>
+      <blockquote class="blockquote">
+        <p>"A true professional with a keen eye for design and usability."</p>
+        <footer class="blockquote-footer">Jane Doe, CEO at CreativeTech</footer>
+      </blockquote>
+      <blockquote class="blockquote">
+        <p>"Dependable and great to work with—always delivers quality code."</p>
+        <footer class="blockquote-footer">John Smith, CTO at InnovateX</footer>
       </blockquote>
     </section>
 
-    <section>
+    <section id="achievements" class="mb-5">
       <h3>Achievements</h3>
       <ul>
-        <li>Winner Hackathon</li>
-        <li>Contributor OSS</li>
+        <li>Winner - Local Hackathon 2023</li>
+        <li>Top Contributor - Open Source Africa 2024</li>
+        <li>Completed 100 Days of Code Challenge</li>
       </ul>
     </section>
   </main>
 
-  <footer>
-    <p>2025 My Portfolio</p>
+  <footer class="bg-dark text-white text-center py-4">
+    &copy; 2025 My Portfolio
   </footer>
 </body>
 </html>

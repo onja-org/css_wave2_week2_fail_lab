@@ -10,32 +10,21 @@ Your job is to **fix layout issues, repair responsiveness**, and **clean up the 
 - **Bootstrap**
 - **Flexbox or Grid**
 
-It should look like 
-![./assets/CSS_Fail_Lab.png][fail lab]
+It should look like: 
+![fail lab](./assets/CSS_Fail_Lab.png)
 ---
 
 ## 🧩 Starter Files
 ```
 broken-portfolio-lab/
-├── index.html        ← Already written, messy layout
+├── index.html        ← ready written, messy layout
 ├── style.css         ← Broken and badly organized
 ```
 
----
-
-## 😵‍\u💫 What’s Broken?
-
-| Area               | Problem Type |
-|--------------------|--------------|
-| Hero Section       | Uses inline styles + `!important` hacks, overriding Bootstrap classes |
-| Navigation         | Breaks on small screens (no responsive layout, nav items float offscreen) |
-| About Section      | Fonts are inconsistent, and margin/padding look messy |
-| Projects Section   | Grid is broken (cards stack wrong on mobile), Bootstrap grid not used properly |
-| Footer             | Sits awkwardly in the middle on large screens |
-
----
-
 ## 🧪 Your Mission
+
+Open up the html file on the browser. It looks really different than the image. Your goal is to make sure it looks like the image above 
+### 1. Make sure 
 
 ### 🧱 1. Layout & Spacing
 - Use Bootstrap grid or Flexbox properly
