@@ -14,6 +14,31 @@ It should look like:
 ![fail lab](./assets/CSS_Fail_Lab.png)
 ---
 
+## <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20"/>  **GitHub Instructions**
+
+To start working on this project, follow these steps:
+
+1. Fork and clone the Repository
+Go to this GitHub repo link: https://github.com/onja-org/css_wave2_week2_fail_lab
+
+2. Clone Your Fork to Your Computer  
+Once you have forked the repo, copy the HTTPS URL.  
+Open your terminal and run:
+
+    ```git clone https://github.com/onja-org/css_wave2_week2_fail_lab.git```
+
+3. Go into the project folder:
+
+      ```cd css_wave2_week2_fail_lab.git```  
+
+4. Open in Visual Studio Code:
+If you have VS Code installed
+
+    ```code .```
+
+5. Start Working on the Project  
+You can now start fixing the broken style in style.css
+
 ## 🧩 Starter Files
 ```
 broken-portfolio-lab/
