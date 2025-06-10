@@ -1,0 +1,14 @@
+{
+  "name": "css_wave2_week2_fail_lab",
+  "version": "1.0.0",
+  "description": "## 🎯 Objective You're taking over a student portfolio site that’s full of broken CSS.   Your job is to **fix layout issues, repair responsiveness**, and **clean up the mess** using:",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm install & node test-fail-lab.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.1.0"
+  }
+}

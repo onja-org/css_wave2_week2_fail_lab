@@ -25,16 +25,22 @@ Go to this GitHub repo link: https://github.com/onja-org/css_wave2_week2_fail_la
 Once you have forked the repo, copy the HTTPS URL.  
 Open your terminal and run:
 
-    ```git clone https://github.com/onja-org/css_wave2_week2_fail_lab.git```
+    ```
+    git clone https://github.com/your-username/css_wave2_week2_fail_lab.git
+    ```
 
 3. Go into the project folder:
 
-      ```cd css_wave2_week2_fail_lab.git```  
+      ```
+      cd css_wave2_week2_fail_lab.git
+      ```  
 
 4. Open in Visual Studio Code:
 If you have VS Code installed
 
-    ```code .```
+    ```
+    code .
+    ```
 
 5. Start Working on the Project  
 You can now start fixing the broken style in style.css
@@ -48,7 +54,7 @@ broken-portfolio-lab/
 
 ## 🧪 Your Mission
 
-Open up the html file on the browser. It looks really different than the image. Your goal is to make sure it looks like the image above 
+Open up the html file on the browser. It looks really different than the image. Your goal is to make sure it looks like the image above  
 ### 1. Make sure 
 
 ### 🧱 1. Layout & Spacing
@@ -83,6 +89,15 @@ Open up the html file on the browser. It looks really different than the image. 
 - An unused CSS rule for `.hidden-navbar` that is accidentally applied
 
 ---
+
+## Test Your work 
+Before submitting your task, you can run the automated tests to validate that your HTML and CSS structure meet the project requirements.
+
+Run this in your terminal:
+
+```
+npm test
+```
 
 ## 🚀 Submission Instructions
 1. Save all changes
