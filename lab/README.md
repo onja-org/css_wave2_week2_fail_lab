@@ -1,6 +1,21 @@
 # 💥 Lab: *Fix the Portfolio!*
 
 ## 🎯 Objective
+You're taking over a student portfolio site that's full of broken CSS.  
+Your job is to **fix layout issues, repair responsiveness**, and **clean up the mess** using:
+
+- The **cascade**
+- **Selectors & specificity**
+- **Media queries**
+- **Bootstrap**
+- **Flexbox or Grid**
+
+> 📖 **For a complete overview of this lab, learning objectives, and lab structure, see the main [README.md](../README.md) in the root directory.**
+
+It should look like: 
+![fail lab](./assets/CSS_Fail_Lab.png) the Portfolio!*
+
+## 🎯 Objective
 You're taking over a student portfolio site that’s full of broken CSS.  
 Your job is to **fix layout issues, repair responsiveness**, and **clean up the mess** using:
 
