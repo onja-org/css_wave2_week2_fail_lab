@@ -16,7 +16,7 @@ lab/
 ├── broken_file/          # The broken version to fix
 │   ├── index.html        # Portfolio HTML with messy layout
 │   └── style.css         # Broken and poorly organized CSS
-├── main_version/         # Reference implementation (if available)
+├── main_version/         # Reference implementation
 │   ├── index.html
 │   └── style.css
 ├── assets/
