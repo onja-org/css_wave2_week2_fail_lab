@@ -1,4 +1,7 @@
-# 💥 Lab: *Fix the Portfolio!*
+# 💥 Lab: *FixIt should look like: 
+![fail lab](./assets/CSS_Fail_Lab.png)
+
+---
 
 ## 🎯 Objective
 You're taking over a student portfolio site that's full of broken CSS.  
@@ -47,7 +50,7 @@ Open your terminal and run:
 3. Go into the project folder:
 
       ```
-      cd css_wave2_week2_fail_lab.git
+      cd css_wave2_week2_fail_lab
       ```  
 
 4. Open in Visual Studio Code:
@@ -58,19 +61,18 @@ If you have VS Code installed
     ```
 
 5. Start Working on the Project  
-You can now start fixing the broken style in style.css
+You can now start fixing the broken style in `lab/broken_file/style.css`
 
 ## 🧩 Starter Files
 ```
-broken-portfolio-lab/
+lab/broken_file/
 ├── index.html        ← ready written, messy layout
 ├── style.css         ← Broken and badly organized
 ```
 
 ## 🧪 Your Mission
 
-Open up the html file on the browser. It looks really different than the image. Your goal is to make sure it looks like the image above  
-### 1. Make sure 
+Open up the html file in the browser. It looks really different than the image. Your goal is to make sure it looks like the image above. 
 
 ### 🧱 1. Layout & Spacing
 - Use Bootstrap grid or Flexbox properly
@@ -108,7 +110,7 @@ Open up the html file on the browser. It looks really different than the image. 
 ## Test Your work 
 Before submitting your task, you can run the automated tests to validate that your HTML and CSS structure meet the project requirements.
 
-Run this in your terminal:
+Run this in your terminal from the root directory:
 
 ```
 npm test
@@ -124,7 +126,7 @@ npm test
 git init
 git add .
 git commit -m "Fix broken portfolio layout and styling"
-git remote add origin https://github.com/your-username/broken-portfolio-lab.git
+git remote add origin https://github.com/your-username/css_wave2_week2_fail_lab.git
 git branch -M main
 git push -u origin main
 ```

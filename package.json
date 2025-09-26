@@ -1,0 +1,14 @@
+{
+  "name": "css_wave2_week2_fail_lab",
+  "version": "1.0.0",
+  "description": "CSS Wave 2 Week 2 Fail Lab - Practice fixing broken CSS with responsive design, Bootstrap, Flexbox/Grid, and clean code techniques",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm install && cd lab && node test-fail-lab.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.1.0"
+  }
+}

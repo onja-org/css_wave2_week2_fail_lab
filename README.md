@@ -12,27 +12,29 @@ This lab provides hands-on practice in fixing a broken portfolio website, focusi
 
 ## Lab Structure
 ```
-lab/
-├── broken_file/          # The broken version to fix
-│   ├── index.html        # Portfolio HTML with messy layout
-│   └── style.css         # Broken and poorly organized CSS
-├── main_version/         # Reference implementation
-│   ├── index.html
-│   └── style.css
-├── assets/
-│   └── CSS_Fail_Lab.png  # Target design to match
-├── package.json          # Testing dependencies
-├── test-fail-lab.js      # Automated tests
-└── README.md             # Detailed lab instructions
-
+css_wave2_week2_fail_lab/
+├── package.json          # Testing dependencies (moved to root)
+├── .gitignore            # Git ignore rules (moved to root)
+├── README.md             # This overview file
+└── lab/
+    ├── broken_file/      # The broken version to fix
+    │   ├── index.html    # Portfolio HTML with messy layout
+    │   └── style.css     # Broken and poorly organized CSS
+    ├── main_version/     # Reference implementation
+    │   ├── index.html
+    │   └── style.css
+    ├── assets/
+    │   └── CSS_Fail_Lab.png  # Target design to match
+    ├── test-fail-lab.js  # Automated tests
+    └── README.md         # Detailed lab instructions
 ```
 
 ## Getting Started
-1. Navigate to the `lab/` directory
+1. Clone or download the repository
 2. Read the detailed instructions in `lab/README.md`
-3. Open `broken_file/index.html` in your browser to see the current state
-4. Compare with the target design in `assets/CSS_Fail_Lab.png`
-5. Fix the CSS in `broken_file/style.css` to match the target
+3. Open `lab/broken_file/index.html` in your browser to see the current state
+4. Compare with the target design in `lab/assets/CSS_Fail_Lab.png`
+5. Fix the CSS in `lab/broken_file/style.css` to match the target
 
 ## Key Challenges
 - Fix layout and spacing issues
@@ -44,11 +46,10 @@ lab/
 ## Testing
 Run the automated tests to validate your fixes:
 ```bash
-cd lab
 npm test
 ```
 
 ## Goals
 Transform a broken, poorly-styled portfolio into a professional-looking responsive website that matches the provided design specification.
 
-For detailed instructions and step-by-step guidance, see `lab/readme.md`.
+For detailed instructions and step-by-step guidance, see `lab/README.md`.
